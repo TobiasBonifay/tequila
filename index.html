@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tobias Bonifay</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <script src="js/script.js"></script>
+    <script src="js/three.min.js"></script>
+    <script src="js/GLTFLoader.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="js/DRACOLoader.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js"></script>
+  </head>
+  <body class="overflow" id="trigger">
+	  <section class="loader">
+        <img alt="cantering horse" src="src/loader.gif" async importance="high"/>
+        <div id="circle"></div>
+	  </section>
+    <header class="headerDown" id="dynamic">
+      <h1>Tobias</h1>
+      <nav id="nav-animation" class="overlay">
+        <a href="javascript:void(0)" class="close_btn" onclick="closeNav()">&times;</a>
+        <ul class="overlay-content" id="horizontal-list">
+          <li><a href="#">about</a></li>
+          <li><a href="#">curriculum-vitae</a></li>
+          <li><a href="#">projects</a></li>
+          <li><a href="#">contact</a></li>
+        </ul>
+      </nav>
+      <span class="open_btn" onclick="openNav()">&#9776;</span>
+    </header>
+      <main>
+          <div id="horse"></div>
+          <aside>
+            <ul>
+              <li><a href="#"><img src="src/logo/016-discord.svg" alt="discord"/></a></li>
+              <li><a href="#"><img src="src/logo/023-facebook.svg" alt="facebook"/></a></li>
+              <li><a href="#"><img src="src/logo/032-github.svg" alt="git"/></a></li>
+              <li><a href="#"><img src="src/logo/044-instagram.svg" alt="instagram"/></a></li>
+              <li><a href="#"><img src="src/logo/052-linkedin.svg" alt="linkedin"/></a></li>
+            </ul>
+          </aside>
+      </main>
+  </body>
+</html>
